@@ -1,7 +1,7 @@
 ARG nginx_version=1.15
 FROM nginx:${nginx_version}
 
-LABEL maintainer="Ryan Gellis <ryan.gellis@rmgmedia.com>"
+LABEL maintainer="Santosh <santosh.lade@qentelli.com>"
 
 ARG nginx_port=80
 ENV NGINX_PORT=${nginx_port}
