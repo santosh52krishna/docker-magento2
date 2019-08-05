@@ -1,7 +1,7 @@
 ARG php_version=7.1
 FROM php:${php_version}-fpm
 
-LABEL maintainer="Ryan Gellis <ryan.gellis@rmgmedia.com>"
+LABEL maintainer="Santosh <santosh.lade@qentelli.com>"
 
 ENV COMPOSER_HOME /var/www/.composer
 
